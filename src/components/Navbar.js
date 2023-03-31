@@ -1,9 +1,24 @@
 import Link from "next/link";
 import styles from "@component/styles/Home.module.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setShowMenu(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
 
   return (
     <div className="relative">
@@ -31,6 +46,7 @@ const Navbar = () => {
           </button>
         </div>
         <div
+          ref={ref}
           className={`${
             showMenu ? "block" : "hidden"
           } absolute z-20 top-16 right-10 w-400 bg-gray-900 py-2 px-3`}
@@ -38,22 +54,26 @@ const Navbar = () => {
           <Link
             href="/"
             className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            onClick={() => setShowMenu(false)}
           >
             Home
           </Link>
           <Link
             href="/games"
             className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            onClick={() => setShowMenu(false)}
           >
             Games
           </Link>
           <Link
             href="/about"
             className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            onClick={() => setShowMenu(false)}
           >
             About
           </Link>
         </div>
+
         {showMenu ? null : (
           <div className="hidden lg:block">
             <Link
