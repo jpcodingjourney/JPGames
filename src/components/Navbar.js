@@ -1,0 +1,84 @@
+import Link from "next/link";
+import styles from "@component/styles/Home.module.css";
+import { useState } from "react";
+
+const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  return (
+    <div className="relative">
+      <div className="flex bg-slate-900 items-center justify-between z-10">
+        <div className={styles.main}>
+          <span className={styles.thirteen}>
+            <Link href="/" className="px-2 hover:text-stone-400 ">
+              JPGAMES
+            </Link>
+          </span>
+        </div>
+        <div className="px-10 block lg:hidden">
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          >
+            <svg
+              className="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          className={`${
+            showMenu ? "block" : "hidden"
+          } absolute z-20 top-16 right-10 w-400 bg-gray-900 py-2 px-3`}
+        >
+          <Link
+            href="/"
+            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+          >
+            Home
+          </Link>
+          <Link
+            href="/games"
+            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+          >
+            Games
+          </Link>
+          <Link
+            href="/about"
+            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+          >
+            About
+          </Link>
+        </div>
+        {showMenu ? null : (
+          <div className="hidden lg:block">
+            <Link
+              href="/"
+              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+            >
+              Home
+            </Link>
+            <Link
+              href="/games"
+              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+            >
+              Games
+            </Link>
+            <Link
+              href="/about"
+              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+            >
+              About
+            </Link>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

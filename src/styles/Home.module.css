@@ -3,8 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+}
+
+.navlink {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--navlink-rgb), 0);
+  border: 1px solid rgba(var(--navlink-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.navlink:hover {
+  background: rgba(var(--navlink-rgb), 0.1);
+  border: 1px solid rgba(var(--navlink-border-rgb), 0.15);
 }
 
 .description {
@@ -141,7 +152,7 @@
 /* Inner Square */
 .thirteen::after {
   inset: 0;
-  padding: 1px;
+  padding: 3px;
   border-radius: var(--border-radius);
   background: linear-gradient(
     to bottom right,
