@@ -102,6 +102,7 @@ body {
 }
 
 body {
+  padding-top: 64px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

@@ -4,15 +4,34 @@ import { useState, useEffect, useRef } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
   const ref = useRef(null);
 
   useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(
+        prevScrollPos > currentScrollPos || currentScrollPos < 10 || showMenu
+      );
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, showMenu]);
+
+  useEffect(() => {
     const handleClickOutside = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
+      if (
+        ref.current &&
+        !ref.current.contains(event.target) &&
+        event.target !== document.querySelector(".border-teal-400") &&
+        !document.querySelector(".border-teal-400").contains(event.target)
+      ) {
         setShowMenu(false);
       }
     };
-
     document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
@@ -21,11 +40,15 @@ const Navbar = () => {
   }, [ref]);
 
   return (
-    <div className="relative">
-      <div className="flex bg-slate-900 items-center justify-between z-10">
+    <div
+      className={`fixed w-full z-30 transition-all duration-300 ${
+        visible ? "top-0" : "-top-16"
+      }`}
+    >
+      <div className="flex bg-slate-900 items-center justify-between py-1">
         <div className={styles.main}>
           <span className={styles.thirteen}>
-            <Link href="/" className="px-2 hover:text-stone-400 ">
+            <Link href="/" className="px-2 hover:text-stone-400">
               JPGAMES
             </Link>
           </span>
@@ -45,6 +68,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
+
         <div
           ref={ref}
           className={`${
