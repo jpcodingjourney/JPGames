@@ -45,7 +45,7 @@ const Navbar = () => {
         visible ? "top-0" : "-top-16"
       }`}
     >
-      <div className="flex bg-slate-900 items-center justify-between py-1">
+      <div className="flex bg-slate-900 items-center justify-between">
         <div className={styles.main}>
           <span className={styles.thirteen}>
             <Link href="/" className="px-2 hover:text-stone-400">
@@ -73,7 +73,7 @@ const Navbar = () => {
           ref={ref}
           className={`${
             showMenu ? "block" : "hidden"
-          } absolute z-20 top-16 right-10 w-400 bg-gray-900 py-2 px-3`}
+          } absolute z-20 top-20 right-10 w-400 rounded-lg bg-gray-900 py-2 px-3`}
         >
           <Link
             href="/"

@@ -59,7 +59,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 153, 239, 256;
     --background-end-rgb: 0, 0, 0;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
@@ -102,7 +102,7 @@ body {
 }
 
 body {
-  padding-top: 64px;
+  padding-top: 80px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
