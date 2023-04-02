@@ -3,7 +3,6 @@ import Carousel from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./GameCarousel.module.css";
-import Head from "next/head";
 
 function GameCarousel() {
   const games = [
@@ -31,19 +30,20 @@ function GameCarousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    swipe: true,
+    // adaptiveHeight: true,
   };
 
   return (
     <div className={styles.carouselContainer}>
-      <Head>
-        <link rel="stylesheet" type="text/css" href="/slick-theme.css" />
-      </Head>
       <Carousel {...settings}>
         {games.map((game) => (
           <div key={game.name}>
-            <h3>{game.name}</h3>
+            <h3 className="text-center my-5">{game.name}</h3>
             <img src={game.imageUrl} alt={game.name} />
-            <p>{game.description}</p>
+            <p className="text-center my-5">{game.description}</p>
           </div>
         ))}
       </Carousel>
