@@ -4,125 +4,146 @@ const GameIntro = () => {
   return (
     <div>
       <div className="">
-        <div className="flex flex-col items-center justify-center min-h-screen">
-          <div className="text-center">Gameplays</div>
-          <div className="flex justify-between w-full">
-            <div className="w-1/3 m-4 bg-white shadow-lg rounded-lg overflow-hidden">
-              <Image src="/img1.jpg" alt="Image 1" width={400} height={400} />
-            </div>
-            <div className="w-1/3 m-4 bg-white shadow-lg rounded-lg overflow-hidden">
-              <Image src="/img2.jpg" alt="Image 2" width={400} height={400} />
-            </div>
-            <div className="w-1/3 m-4 bg-white shadow-lg rounded-lg overflow-hidden">
-              <Image src="/img3.jpg" alt="Image 3" width={400} height={400} />
+        <div className="min-h-screen">
+          <div className="text-center text-3xl font-medium">Genshin Impact</div>
+          <div className="text-center text-3xl font-medium">Gameplays</div>
+          <div className="my-16 flex flex-col lg:flex-row">
+            <Image
+              src="/game1.jpg"
+              alt="Image 1"
+              width={700}
+              height={700}
+              className="mx-20 shadow-lg"
+            />
+
+            <div className="m-auto max-w-lg whitespace-normal">
+              haaskdlsadsdlksdklakasldkalkefkpweofkpewfkewfokepwfokwepfoewkpfowddjkfjdslkfjdlkfjdslfkflksdjskdjaldkjsalkdjsaldkjasldkajsdlha
             </div>
           </div>
+          <div className="my-16">
+            <Image
+              src="/game1.jpg"
+              alt="Image 2"
+              width={700}
+              height={700}
+              className="ml-auto mr-32 shadow-lg"
+            />
+          </div>
+          <div className="my-16">
+            <Image
+              src="/game1.jpg"
+              alt="Image 3"
+              width={700}
+              height={700}
+              className="mr-auto ml-32 shadow-lg"
+            />
+          </div>
         </div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
-        <div>Gameplays</div>
-        <div>achievements</div>
-        <div>Download and try it now!</div>
       </div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
+      <div>Gameplays</div>
+      <div>achievements</div>
+      <div>Download and try it now!</div>
     </div>
   );
 };
