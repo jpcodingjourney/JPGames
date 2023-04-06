@@ -4,39 +4,55 @@ const GameIntro = () => {
   return (
     <div>
       <div className="">
-        <div className="min-h-screen">
+        <div className="">
           <div className="text-center text-3xl font-medium">Genshin Impact</div>
           <div className="text-center text-3xl font-medium">Gameplays</div>
-          <div className="my-16 flex flex-col lg:flex-row">
-            <Image
-              src="/game1.jpg"
-              alt="Image 1"
-              width={700}
-              height={700}
-              className="mx-20 shadow-lg"
-            />
-
-            <div className="m-auto max-w-lg whitespace-normal">
-              haaskdlsadsdlksdklakasldkalkefkpweofkpewfkewfokepwfokwepfoewkpfowddjkfjdslkfjdlkfjdslfkflksdjskdjaldkjsalkdjsaldkjasldkajsdlha
+          <div className="my-40 flex flex-col lg:flex-row">
+            <div>
+              <Image
+                src="/game1.jpg"
+                alt="Image 1"
+                width={700}
+                height={700}
+                className="ml-40 shadow-lg"
+              />
+            </div>
+            <div className="relative my-auto ml-36 max-w-lg break-words">
+              testing text testing text testing text testing text testing text
+              testing text testing text testing text testing text testing text
+              testing text testing text
             </div>
           </div>
-          <div className="my-16">
+
+          <div className="my-40 flex flex-col lg:flex-row">
+            <div className="my-auto ml-60 max-w-lg break-words">
+              testing text testing text testing text testing text testing text
+              testing text testing text testing text testing text testing text
+              testing text testing text testing text
+            </div>
             <Image
               src="/game1.jpg"
               alt="Image 2"
               width={700}
               height={700}
-              className="ml-auto mr-32 shadow-lg"
+              className="m-auto shadow-lg relative"
             />
           </div>
-          <div className="my-16">
-            <Image
-              src="/game1.jpg"
-              alt="Image 3"
-              width={700}
-              height={700}
-              className="mr-auto ml-32 shadow-lg"
-            />
+          <div className="my-36 flex flex-col lg:flex-row">
+            <div>
+              <Image
+                src="/game1.jpg"
+                alt="Image 3"
+                width={700}
+                height={700}
+                className="ml-40 shadow-lg"
+              />
+            </div>
+            <div className="relative my-auto ml-36 max-w-lg break-words">
+              testing text testing text testing text testing text testing text
+              testing text testing text testing text testing text testing text
+              testing text testing text
+            </div>
           </div>
         </div>
       </div>
