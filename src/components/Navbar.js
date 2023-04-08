@@ -47,8 +47,8 @@ const Navbar = () => {
     >
       <div className="flex bg-slate-900 items-center justify-between">
         <div className={styles.main}>
-          <span className={styles.thirteen}>
-            <Link href="/" className="px-2 hover:text-stone-400">
+          <span className={styles.jpgames}>
+            <Link href="/" className=" hover:animate-pulse navlink">
               JPGAMES
             </Link>
           </span>
