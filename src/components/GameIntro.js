@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 const GameIntro = () => {
   return (
     <div>
@@ -66,8 +67,17 @@ const GameIntro = () => {
               testing text testing text
             </div>
           </div>
+          <div className="flex justify-center items-center text-3xl underline h-screen">
+            <a
+              href="https://genshin.hoyoverse.com/en/home"
+              className="text-center"
+            >
+              Click here to download and play now!
+            </a>
+          </div>
         </div>
       </div>
+
       <div>achievements</div>
       <div>Download and try it now!</div>
       <div>Gameplays</div>
