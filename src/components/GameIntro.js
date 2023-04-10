@@ -67,6 +67,10 @@ const GameIntro = () => {
               testing text testing text
             </div>
           </div>
+          <div className="flex justify-center items-center text-2xl">
+            Available on: GeForce Now, PlayStation 4, PlayStation 5, Android,
+            Microsoft Windows, iOS
+          </div>
           <div className="flex justify-center items-center text-3xl underline h-screen">
             <a
               href="https://genshin.hoyoverse.com/en/home"

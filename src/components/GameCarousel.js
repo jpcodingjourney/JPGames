@@ -10,7 +10,7 @@ function GameCarousel() {
       name: "Genshin Impact",
       imageUrl: "/game1.jpg",
       description:
-        "Genshin Impact is an open wolrd action role-playing game developed and published by miHoYo. It was released for Android, iOS, PlayStation 4, and Windows in 2020, on PlayStation 5 in 2021, and is set for release on Nintendo Switch.",
+        "Step into Teyvat with your trusty companion Paimon and you'll discover a spectacular land of puzzles, challenges and combat. Genshim Impact is known for its expansive world, but fans also love the constantly unravelling story and intriguing characters.",
     },
     {
       name: "Undertale",
