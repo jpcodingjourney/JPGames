@@ -19,11 +19,6 @@ const Games = () => {
         <div>games page games page games page games page games page</div>
         <div>games page games page games page games page games page</div>
         <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
 
         <div className={styles.grid}>
           <a
@@ -33,11 +28,9 @@ const Games = () => {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              Genshin Impact <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
+            <p className={inter.className}>Try this game</p>
           </a>
 
           <a
@@ -47,11 +40,9 @@ const Games = () => {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              Undertale <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
+            <p className={inter.className}>Try this game</p>
           </a>
 
           <a
@@ -61,11 +52,9 @@ const Games = () => {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Path of Exile <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
+            <p className={inter.className}>Try this game</p>
           </a>
         </div>
       </main>
