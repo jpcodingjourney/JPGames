@@ -26,9 +26,15 @@ function GameCarousel() {
     },
     {
       name: "PUBG: Battlegrounds",
-      imageUrl: "/game4.webp",
+      imageUrl: "/game4.png",
       description:
         "PUBG: BATTLEGROUNDS is a battle royale that pits 100 players against each other. Outplay your opponents to become the lone survivor.",
+    },
+    {
+      name: "DOTA 2",
+      imageUrl: "/game5.jpg",
+      description:
+        "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
     },
   ];
 
