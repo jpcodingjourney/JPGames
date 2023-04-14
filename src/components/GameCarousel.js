@@ -24,6 +24,12 @@ function GameCarousel() {
       description:
         "Path of Exile is a free-to-play action role-playing video game developed and published by Grinding Gear Games. Following an open beta phase, the game was released for Microsoft Windows in October 2013. A version for Xbox One was released in August 2017, and a PlayStation 4 version was released in March 2019.",
     },
+    {
+      name: "PUBG: Battlegrounds",
+      imageUrl: "/game4.webp",
+      description:
+        "PUBG: BATTLEGROUNDS is a battle royale that pits 100 players against each other. Outplay your opponents to become the lone survivor.",
+    },
   ];
 
   const settings = {
