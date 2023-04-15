@@ -71,7 +71,9 @@ function GameCarousel() {
             <h3 className="text-center my-5 text-3xl font-medium">
               {game.name}
             </h3>
-            <img src={game.imageUrl} alt={game.name} />
+            <a href={`#${game.name}`}>
+              <img src={game.imageUrl} alt={game.name} />
+            </a>
             <p className="text-center my-5">{game.description}</p>
           </div>
         ))}
