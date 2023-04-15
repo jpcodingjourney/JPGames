@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import Carousel from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -51,6 +52,20 @@ function GameCarousel() {
     // adaptiveHeight: true,
   };
 
+  useEffect(() => {
+    const smoothScrollLinks = document.querySelectorAll(
+      'a[href^="#"]:not([href="#"])'
+    );
+    smoothScrollLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        const targetId = link.getAttribute("href").substring(1);
+        const targetSection = document.getElementById(targetId);
+        targetSection.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  }, []);
+
   return (
     <div className={styles.carouselContainer}>
       <style>{`
@@ -72,7 +87,11 @@ function GameCarousel() {
               {game.name}
             </h3>
             <a href={`#${game.name}`}>
-              <img src={game.imageUrl} alt={game.name} />
+              <img
+                src={game.imageUrl}
+                alt={game.name}
+                className="hover:brightness-105 transition duration-300 ease-in-out transform hover:scale-105"
+              />
             </a>
             <p className="text-center my-5">{game.description}</p>
           </div>
