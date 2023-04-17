@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 const GameIntro = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > window.innerHeight) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div>
       <div>
@@ -10,7 +32,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Genshin Impact - Official Trailer
             </div>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center pt-8 pb-52">
               <iframe
                 width="800"
                 height="600"
@@ -24,7 +46,7 @@ const GameIntro = () => {
             </div>
 
             <div className="text-center text-3xl font-medium">Gameplays</div>
-            <div className="my-40 flex flex-col lg:flex-row">
+            <div className="my-20 flex flex-col lg:flex-row">
               <div>
                 <Image
                   src="/game1.jpg"
@@ -92,7 +114,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Undertale - Official Trailer
             </div>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center pt-8 pb-52">
               <iframe
                 width="800"
                 height="600"
@@ -106,7 +128,7 @@ const GameIntro = () => {
             </div>
 
             <div className="text-center text-3xl font-medium">Gameplays</div>
-            <div className="my-40 flex flex-col lg:flex-row">
+            <div className="my-20 flex flex-col lg:flex-row">
               <div>
                 <Image
                   src="/game2.jpg"
@@ -166,17 +188,17 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Undertale" className="pt-20">
+        <div id="Path of Exile" className="pt-20">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Path of Exile - Official Trailer
             </div>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center pt-8 pb-52">
               <iframe
                 width="800"
                 height="600"
                 src="https://www.youtube.com/embed/TGn5NzGwqKw?vq=hd1080"
-                title="Undertale Trailer"
+                title="Path of Exile Trailer"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -185,7 +207,7 @@ const GameIntro = () => {
             </div>
 
             <div className="text-center text-3xl font-medium">Gameplays</div>
-            <div className="my-40 flex flex-col lg:flex-row">
+            <div className="my-20 flex flex-col lg:flex-row">
               <div>
                 <Image
                   src="/game3.jpeg"
@@ -244,8 +266,6 @@ const GameIntro = () => {
         </div>
       </div>
 
-      <div>achievements</div>
-      <div>Download and try it now!</div>
       <div>Gameplays</div>
       <div>achievements</div>
       <div>Download and try it now!</div>
@@ -279,75 +299,14 @@ const GameIntro = () => {
       <div>Gameplays</div>
       <div>achievements</div>
       <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
+      {showButton && (
+        <button
+          onClick={handleClick}
+          className="fixed bottom-12 right-16 text-4xl hover:scale-105"
+        >
+          ⬆️
+        </button>
+      )}
     </div>
   );
 };

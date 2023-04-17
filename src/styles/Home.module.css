@@ -5,6 +5,51 @@
   align-items: center;
 }
 
+#back-to-top-btn button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#back-to-top-btn button:hover {
+  background-color: #3e8e41;
+}
+
+#back-to-top-btn button:focus {
+  outline: none;
+}
+
+#back-to-top-btn.animate {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#back-to-top-btn.animate.reverse {
+  animation: fadeOut 0.3s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .navlink {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
