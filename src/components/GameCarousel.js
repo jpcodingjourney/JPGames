@@ -23,7 +23,7 @@ function GameCarousel() {
       name: "Path of Exile",
       imageUrl: "/game3.jpeg",
       description:
-        "Path of Exile is a free-to-play action role-playing video game developed and published by Grinding Gear Games. Following an open beta phase, the game was released for Microsoft Windows in October 2013. A version for Xbox One was released in August 2017, and a PlayStation 4 version was released in March 2019.",
+        "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Created by hardcore gamers, Path of Exile is an online Action RPG set in a dark fantasy world.",
     },
     {
       name: "PUBG: Battlegrounds",
