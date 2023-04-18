@@ -188,7 +188,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Path of Exile" className="pt-20">
+        <div id="Dota 2" className="pt-20">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Path of Exile - Official Trailer
@@ -198,7 +198,7 @@ const GameIntro = () => {
                 width="800"
                 height="600"
                 src="https://www.youtube.com/embed/TGn5NzGwqKw?vq=hd1080"
-                title="Path of Exile Trailer"
+                title="Dota 2 Trailer"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -259,6 +259,164 @@ const GameIntro = () => {
             </div>
             <div className="flex justify-center items-center text-3xl underline h-screen">
               <a href="https://www.pathofexile.com/" className="text-center">
+                Click here to play now!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="PUBG: Battlegrounds" className="pt-20">
+          <div className="">
+            <div className="text-center text-3xl font-medium">
+              PUBG: Battlegrounds - Official Trailer
+            </div>
+            <div className="flex justify-center items-center pt-8 pb-52">
+              <iframe
+                width="800"
+                height="600"
+                src="https://www.youtube.com/embed/u1oqfdh4xBY?vq=hd1080"
+                title="PUBG: Battlegrounds Trailer"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="mx-auto"
+              />
+            </div>
+
+            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="my-20 flex flex-col lg:flex-row">
+              <div>
+                <Image
+                  src="/game4.png"
+                  alt="Image 4"
+                  width={700}
+                  height={700}
+                  className="ml-36 shadow-lg"
+                />
+              </div>
+              <div className="relative my-auto ml-36 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text
+              </div>
+            </div>
+            <div className="my-40 flex flex-col lg:flex-row">
+              <div className="my-auto ml-60 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text
+              </div>
+              <Image
+                src="/game4.png"
+                alt="Image 2"
+                width={700}
+                height={700}
+                className="m-auto shadow-lg relative"
+              />
+            </div>
+            <div className="my-36 flex flex-col lg:flex-row">
+              <div>
+                <Image
+                  src="/game4.png"
+                  alt="Image 3"
+                  width={700}
+                  height={700}
+                  className="ml-36 shadow-lg"
+                />
+              </div>
+              <div className="relative my-auto ml-36 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text
+              </div>
+            </div>
+            <div className="flex justify-center items-center text-2xl">
+              Available on: PlayStation 4, macOS, GeForce Now, Xbox One,
+              Microsoft Windows, Mac operating systems
+            </div>
+            <div className="flex justify-center items-center text-3xl underline h-screen">
+              <a href="https://pubg.com/" className="text-center">
+                Click here to play now!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="Path of Exile" className="pt-20">
+          <div className="">
+            <div className="text-center text-3xl font-medium">
+              Path of Exile - Official Trailer
+            </div>
+            <div className="flex justify-center items-center pt-8 pb-52">
+              <iframe
+                width="800"
+                height="600"
+                src="https://www.youtube.com/embed/38ZwPC3xO78?vq=hd1080"
+                title="Dota 2 Trailer"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="mx-auto"
+              />
+            </div>
+
+            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="my-20 flex flex-col lg:flex-row">
+              <div>
+                <Image
+                  src="/game5.jpg"
+                  alt="Image 1"
+                  width={700}
+                  height={700}
+                  className="ml-36 shadow-lg"
+                />
+              </div>
+              <div className="relative my-auto ml-36 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text
+              </div>
+            </div>
+            <div className="my-40 flex flex-col lg:flex-row">
+              <div className="my-auto ml-60 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text
+              </div>
+              <Image
+                src="/game5.jpg"
+                alt="Image 2"
+                width={700}
+                height={700}
+                className="m-auto shadow-lg relative"
+              />
+            </div>
+            <div className="my-36 flex flex-col lg:flex-row">
+              <div>
+                <Image
+                  src="/game5.jpg"
+                  alt="Image 3"
+                  width={700}
+                  height={700}
+                  className="ml-36 shadow-lg"
+                />
+              </div>
+              <div className="relative my-auto ml-36 max-w-lg break-words">
+                testing text testing text testing text testing text testing text
+                testing text testing text testing text testing text testing text
+                testing text testing text
+              </div>
+            </div>
+            <div className="flex justify-center items-center text-2xl">
+              Available on: PlayStation 4, macOS, GeForce Now, Xbox One,
+              Microsoft Windows, Mac operating systems
+            </div>
+            <div className="flex justify-center items-center text-3xl underline h-screen">
+              <a href="https://www.dota2.com/home" className="text-center">
                 Click here to play now!
               </a>
             </div>
