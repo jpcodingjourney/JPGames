@@ -27,7 +27,7 @@ const GameIntro = () => {
   return (
     <div>
       <div>
-        <div id="Genshin Impact" className="pt-20">
+        <div id="Genshin Impact" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Genshin Impact - Official Trailer
@@ -92,11 +92,11 @@ const GameIntro = () => {
                 testing text testing text
               </div>
             </div>
-            <div className="flex justify-center items-center text-2xl">
+            <div className="flex justify-center items-center text-2xl pb-16">
               Available on: GeForce Now, PlayStation 4, PlayStation 5, Android,
               Microsoft Windows, iOS
             </div>
-            <div className="flex justify-center items-center text-3xl underline h-screen">
+            <div className="flex justify-center items-center text-3xl underline">
               <a
                 href="https://genshin.hoyoverse.com/en/home"
                 className="text-center"
@@ -109,7 +109,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Undertale" className="pt-20">
+        <div id="Undertale" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Undertale - Official Trailer
@@ -174,11 +174,11 @@ const GameIntro = () => {
                 testing text testing text
               </div>
             </div>
-            <div className="flex justify-center items-center text-2xl">
+            <div className="flex justify-center items-center text-2xl pb-16">
               Available on: GeForce Now, PlayStation 4, PlayStation 5, Android,
               Microsoft Windows, iOS
             </div>
-            <div className="flex justify-center items-center text-3xl underline h-screen">
+            <div className="flex justify-center items-center text-3xl underline">
               <a href="https://undertale.com/" className="text-center">
                 Click here to play now!
               </a>
@@ -188,7 +188,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Dota 2" className="pt-20">
+        <div id="Path of Exile" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Path of Exile - Official Trailer
@@ -253,11 +253,11 @@ const GameIntro = () => {
                 testing text testing text
               </div>
             </div>
-            <div className="flex justify-center items-center text-2xl">
+            <div className="flex justify-center items-center text-2xl pb-16">
               Available on: PlayStation 4, macOS, GeForce Now, Xbox One,
               Microsoft Windows, Mac operating systems
             </div>
-            <div className="flex justify-center items-center text-3xl underline h-screen">
+            <div className="flex justify-center items-center text-3xl underline">
               <a href="https://www.pathofexile.com/" className="text-center">
                 Click here to play now!
               </a>
@@ -267,7 +267,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="PUBG: Battlegrounds" className="pt-20">
+        <div id="PUBG: Battlegrounds" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               PUBG: Battlegrounds - Official Trailer
@@ -332,11 +332,11 @@ const GameIntro = () => {
                 testing text testing text
               </div>
             </div>
-            <div className="flex justify-center items-center text-2xl">
-              Available on: PlayStation 4, macOS, GeForce Now, Xbox One,
-              Microsoft Windows, Mac operating systems
+            <div className="flex justify-center items-center text-2xl pb-16">
+              Available on: Windows, Android, iOS, Xbox One, PlayStation 4,
+              Stadia, Xbox Series X/S, PlayStation 5
             </div>
-            <div className="flex justify-center items-center text-3xl underline h-screen">
+            <div className="flex justify-center items-center text-3xl underline">
               <a href="https://pubg.com/" className="text-center">
                 Click here to play now!
               </a>
@@ -346,10 +346,10 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Path of Exile" className="pt-20">
+        <div id="Dota 2" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
-              Path of Exile - Official Trailer
+              Dota 2 - Official Trailer
             </div>
             <div className="flex justify-center items-center pt-8 pb-52">
               <iframe
@@ -411,11 +411,11 @@ const GameIntro = () => {
                 testing text testing text
               </div>
             </div>
-            <div className="flex justify-center items-center text-2xl">
-              Available on: PlayStation 4, macOS, GeForce Now, Xbox One,
-              Microsoft Windows, Mac operating systems
+            <div className="flex justify-center items-center text-2xl pb-16">
+              Available on: Microsoft Windows, macOS, GeForce Now, Linux,
+              Classic Mac OS
             </div>
-            <div className="flex justify-center items-center text-3xl underline h-screen">
+            <div className="flex justify-center items-center text-3xl underline">
               <a href="https://www.dota2.com/home" className="text-center">
                 Click here to play now!
               </a>
@@ -424,39 +424,6 @@ const GameIntro = () => {
         </div>
       </div>
 
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
-      <div>Gameplays</div>
-      <div>achievements</div>
-      <div>Download and try it now!</div>
       {showButton && (
         <button
           onClick={handleClick}
