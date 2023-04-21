@@ -56,6 +56,30 @@ const Games = () => {
             </h2>
             <p className={inter.className}>Try this game</p>
           </a>
+
+          <a
+            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              PUBG: Battlegrounds <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>Try this game</p>
+          </a>
+
+          <a
+            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              DOTA 2 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>Try this game</p>
+          </a>
         </div>
       </main>
     </>
