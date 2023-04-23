@@ -427,7 +427,7 @@ const GameIntro = () => {
       {showButton && (
         <button
           onClick={handleClick}
-          className="fixed bottom-12 right-16 text-4xl hover:scale-105"
+          className="fixed bottom-80 right-16 text-4xl hover:scale-105"
         >
           ⬆️
         </button>

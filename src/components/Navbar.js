@@ -45,8 +45,8 @@ const Navbar = () => {
         visible ? "top-0" : "-top-16"
       }`}
     >
-      <div className="flex bg-slate-900 items-center justify-between">
-        <div className={styles.main}>
+      <div className="flex bg-rose-800 items-center justify-between">
+        <div className="">
           <span className={styles.jpgames}>
             <Link href="/" className=" hover:animate-pulse navlink">
               JPGAMES
@@ -73,25 +73,25 @@ const Navbar = () => {
           ref={ref}
           className={`${
             showMenu ? "block" : "hidden"
-          } absolute z-20 top-20 right-10 w-400 rounded-lg bg-gray-900 py-2 px-3`}
+          } absolute z-20 top-20 right-10 w-400 rounded-lg bg-rose-800 py-2 px-3`}
         >
           <Link
             href="/"
-            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            className="block mb-4 hover:bg-rose-600 rounded hover:rounded navlink"
             onClick={() => setShowMenu(false)}
           >
             Home
           </Link>
           <Link
             href="/games"
-            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            className="block mb-4 hover:bg-rose-600 rounded hover:rounded navlink"
             onClick={() => setShowMenu(false)}
           >
             Games
           </Link>
           <Link
             href="/about"
-            className="block mb-4 hover:bg-slate-700 rounded hover:rounded navlink"
+            className="block mb-4 hover:bg-rose-600 rounded hover:rounded navlink"
             onClick={() => setShowMenu(false)}
           >
             About
@@ -102,19 +102,19 @@ const Navbar = () => {
           <div className="hidden lg:block">
             <Link
               href="/"
-              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+              className=" mx-3 hover:bg-rose-600 rounded hover:rounded navlink"
             >
               Home
             </Link>
             <Link
               href="/games"
-              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+              className=" mx-3 hover:bg-rose-600 rounded hover:rounded navlink"
             >
               Games
             </Link>
             <Link
               href="/about"
-              className=" mx-3 hover:bg-slate-700 rounded hover:rounded navlink"
+              className=" mx-3 hover:bg-rose-600 rounded hover:rounded navlink"
             >
               About
             </Link>
