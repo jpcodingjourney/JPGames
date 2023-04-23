@@ -14,16 +14,12 @@ const Games = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
-        <div>games page games page games page games page games page</div>
+        <div className="text-3xl mt-8 mb-6">Games</div>
 
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +31,7 @@ const Games = () => {
 
           <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,7 +43,7 @@ const Games = () => {
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +55,7 @@ const Games = () => {
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,7 +67,7 @@ const Games = () => {
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+            className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
