@@ -201,8 +201,8 @@
   border-radius: var(--border-radius);
   background: linear-gradient(
     to bottom right,
-    rgba(var(--tile-start-rgb), 1),
-    rgba(var(--tile-end-rgb), 1)
+    rgba(180, 18, 57, 1),
+    rgba(220, 50, 100, 1)
   );
   background-clip: content-box;
 }

@@ -346,7 +346,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="Dota 2" className="pt-20 pb-52">
+        <div id="DOTA 2" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Dota 2 - Official Trailer
