@@ -37,6 +37,12 @@ function GameCarousel() {
       description:
         "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
     },
+    {
+      name: "World of Warcraft",
+      imageUrl: "/game6.webp",
+      description:
+        "Set in the fictional world of Azeroth, WoW allows players to create avatar-style characters and explore a sprawling universe while interacting with nonreal players—called nonplayer characters (NPCs)—and other real-world players (PCs)",
+    },
   ];
 
   const settings = {
