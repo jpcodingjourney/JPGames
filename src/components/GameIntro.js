@@ -56,14 +56,14 @@ const GameIntro = () => {
                   className="ml-36 shadow-lg"
                 />
               </div>
-              <div className="relative my-auto ml-36 max-w-lg break-words">
+              <div className="relative my-auto ml-36 max-w-lg break-words lg:block hidden">
                 testing text testing text testing text testing text testing text
                 testing text testing text testing text testing text testing text
                 testing text testing text
               </div>
             </div>
             <div className="my-40 flex flex-col lg:flex-row">
-              <div className="my-auto ml-60 max-w-lg break-words">
+              <div className="my-auto ml-60 max-w-lg break-words lg:block hidden">
                 testing text testing text testing text testing text testing text
                 testing text testing text testing text testing text testing text
                 testing text testing text testing text
@@ -86,7 +86,7 @@ const GameIntro = () => {
                   className="ml-36 shadow-lg"
                 />
               </div>
-              <div className="relative my-auto ml-36 max-w-lg break-words">
+              <div className="relative my-auto ml-36 max-w-lg break-words lg:block hidden">
                 testing text testing text testing text testing text testing text
                 testing text testing text testing text testing text testing text
                 testing text testing text
@@ -346,7 +346,7 @@ const GameIntro = () => {
       </div>
 
       <div>
-        <div id="DOTA 2" className="pt-20 pb-52">
+        <div id="Dota 2" className="pt-20 pb-52">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Dota 2 - Official Trailer
@@ -434,7 +434,7 @@ const GameIntro = () => {
               <iframe
                 width="800"
                 height="600"
-                src="https://www.youtube.com/embed/3ZtedjN1JXY?vq=hd1080"
+                src="https://www.youtube.com/embed/38ZwPC3xO78?vq=hd1080"
                 title="Wolrd of Warcraft Trailer"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -491,7 +491,8 @@ const GameIntro = () => {
               </div>
             </div>
             <div className="flex justify-center items-center text-2xl pb-16">
-              Available on: Microsoft Windows, macOS
+              Available on: Microsoft Windows, macOS, GeForce Now, Linux,
+              Classic Mac OS
             </div>
             <div className="flex justify-center items-center text-3xl underline">
               <a

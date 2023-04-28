@@ -11,7 +11,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex pt-48">
+      <div className="flex pt-32">
         <div>
           <div className="px-96 text-xl mb-16">
             Welcome to my personal game website, where I share a collection of
