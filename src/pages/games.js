@@ -18,7 +18,7 @@ const Games = () => {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://genshin.hoyoverse.com/en/home"
             className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const Games = () => {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://undertale.com/"
             className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Games = () => {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.pathofexile.com/"
             className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const Games = () => {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://pubg.com/"
             className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -66,13 +66,24 @@ const Games = () => {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.dota2.com/home"
             className={`my-12  ${styles.card}`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               DOTA 2 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>Try this game</p>
+          </a>
+          <a
+            href="https://worldofwarcraft.blizzard.com/"
+            className={`my-12  ${styles.card}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              Wolrd of Warcraft <span>-&gt;</span>
             </h2>
             <p className={inter.className}>Try this game</p>
           </a>
