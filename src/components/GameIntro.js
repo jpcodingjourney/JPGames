@@ -46,50 +46,61 @@ const GameIntro = () => {
             </div>
 
             <div className="text-center text-3xl font-medium">Gameplays</div>
-            <div className="my-20 flex flex-col lg:flex-row">
-              <div>
+
+            <div className="flex flex-wrap justify-center items-center pt-20">
+              <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game1.jpg"
                   alt="Image 1"
+                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={700}
                   height={700}
-                  className="ml-36 shadow-lg"
                 />
               </div>
-              <div className="relative my-auto ml-36 max-w-lg break-words lg:block hidden">
-                testing text testing text testing text testing text testing text
-                testing text testing text testing text testing text testing text
-                testing text testing text
+              <div className="w-full lg:w-2/6 px-16 my-4 lg:my-0">
+                <div className="text-xl break-words lg:block hidden">
+                  testing text testing text testing text testing text testing
+                  text testing text testing text testing text testing text
+                  testing text testing text testing text
+                </div>
               </div>
             </div>
-            <div className="my-40 flex flex-col lg:flex-row">
-              <div className="my-auto ml-60 max-w-lg break-words lg:block hidden">
-                testing text testing text testing text testing text testing text
-                testing text testing text testing text testing text testing text
-                testing text testing text testing text
+
+            <div className="flex flex-wrap justify-center items-center py-32">
+              <div className="w-full lg:w-2/6 px-16 my-4 lg:my-0">
+                <div className="text-xl break-words lg:block hidden">
+                  testing text testing text testing text testing text testing
+                  text testing text testing text testing text testing text
+                  testing text testing text testing text testing text
+                </div>
               </div>
-              <Image
-                src="/game1.jpg"
-                alt="Image 2"
-                width={700}
-                height={700}
-                className="m-auto shadow-lg relative"
-              />
-            </div>
-            <div className="my-36 flex flex-col lg:flex-row">
-              <div>
+              <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game1.jpg"
-                  alt="Image 3"
+                  alt="Image 2"
                   width={700}
                   height={700}
-                  className="ml-36 shadow-lg"
+                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
-              <div className="relative my-auto ml-36 max-w-lg break-words lg:block hidden">
-                testing text testing text testing text testing text testing text
-                testing text testing text testing text testing text testing text
-                testing text testing text
+            </div>
+
+            <div className="flex flex-wrap justify-center items-center pb-32">
+              <div className="w-full lg:w-3/6 px-4">
+                <Image
+                  src="/game1.jpg"
+                  alt="Image 1"
+                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  width={700}
+                  height={700}
+                />
+              </div>
+              <div className="w-full lg:w-2/6 px-16 my-4 lg:my-0">
+                <div className="text-xl break-words lg:block hidden">
+                  testing text testing text testing text testing text testing
+                  text testing text testing text testing text testing text
+                  testing text testing text testing text
+                </div>
               </div>
             </div>
             <div className="flex justify-center items-center text-2xl pb-16">
@@ -155,7 +166,7 @@ const GameIntro = () => {
                 alt="Image 2"
                 width={700}
                 height={700}
-                className="m-auto shadow-lg relative"
+                className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
               />
             </div>
             <div className="my-36 flex flex-col lg:flex-row">
@@ -234,7 +245,7 @@ const GameIntro = () => {
                 alt="Image 2"
                 width={700}
                 height={700}
-                className="m-auto shadow-lg relative"
+                className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
               />
             </div>
             <div className="my-36 flex flex-col lg:flex-row">
@@ -313,7 +324,7 @@ const GameIntro = () => {
                 alt="Image 2"
                 width={700}
                 height={700}
-                className="m-auto shadow-lg relative"
+                className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
               />
             </div>
             <div className="my-36 flex flex-col lg:flex-row">
@@ -392,7 +403,7 @@ const GameIntro = () => {
                 alt="Image 2"
                 width={700}
                 height={700}
-                className="m-auto shadow-lg relative"
+                className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
               />
             </div>
             <div className="my-36 flex flex-col lg:flex-row">
@@ -471,7 +482,7 @@ const GameIntro = () => {
                 alt="Image 2"
                 width={700}
                 height={700}
-                className="m-auto shadow-lg relative"
+                className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
               />
             </div>
             <div className="my-36 flex flex-col lg:flex-row">
