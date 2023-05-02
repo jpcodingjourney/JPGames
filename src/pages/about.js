@@ -12,8 +12,8 @@ const About = () => {
       </Head>
 
       <div className="flex pt-8 lg:pt-12 2xl:pt-20">
-        <div className="px-16">
-          <div className="lg:px-96 lg:text-xl mb-16">
+        <div className="px-8 lg:px-0 2xl:px-20">
+          <div className="text-xl lg:px-96 lg:text-xl mb-16">
             Welcome to my personal game website, where I share a collection of
             games that I love to play. As a passionate gamer, I have a
             particular affinity for role-playing games (RPGs) and massively
@@ -21,7 +21,7 @@ const About = () => {
             favorite titles in these genres, ranging from classic games to
             modern releases.
           </div>
-          <div className="lg:px-96 lg:text-xl mb-10">
+          <div className="text-xl lg:px-96 lg:text-xl mb-10">
             My hope is to provide a platform for fellow gamers to discover and
             enjoy new games, as well as revisit old favorites. Whether you're an
             RPG enthusiast, an MMO veteran, or simply someone who loves to game,
