@@ -32,7 +32,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Genshin Impact - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   <iframe
@@ -46,9 +46,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game1.jpg"
@@ -86,7 +88,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game1.jpg"
@@ -127,7 +129,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Undertale - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   <iframe
@@ -144,9 +146,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game2.jpg"
@@ -184,7 +188,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game2.jpg"
@@ -222,7 +226,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Path of Exile - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   {" "}
@@ -240,9 +244,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game3.jpeg"
@@ -280,7 +286,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game3.jpeg"
@@ -318,7 +324,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               PUBG: Battlegrounds - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   {" "}
@@ -336,9 +342,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game4.png"
@@ -376,7 +384,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game4.png"
@@ -414,7 +422,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Dota 2 - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   {" "}
@@ -432,9 +440,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game5.jpg"
@@ -472,7 +482,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game5.jpg"
@@ -510,7 +520,7 @@ const GameIntro = () => {
             <div className="text-center text-3xl font-medium">
               Wolrd of Warcraft - Official Trailer
             </div>
-            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-52">
+            <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
                   {" "}
@@ -528,9 +538,11 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="text-center text-3xl font-medium">Gameplays</div>
+            <div className="text-center text-3xl font-medium lg:pt-32">
+              Gameplays
+            </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game6.webp"
@@ -568,7 +580,7 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-24">
+            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/game6.webp"
