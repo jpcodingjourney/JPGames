@@ -27,7 +27,7 @@ const GameIntro = () => {
   return (
     <div>
       <div>
-        <div id="Genshin Impact" className="pt-20 pb-52 lg:pb-72">
+        <div id="Genshin Impact" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Genshin Impact - Official Trailer
@@ -124,9 +124,10 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
+      <hr className="border-b-8 my-8" />
 
       <div>
-        <div id="Undertale" className="pt-20 pb-52 lg:pb-72">
+        <div id="Undertale" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Undertale - Official Trailer
@@ -221,9 +222,9 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-
+      <hr className="border-b-8 my-8" />
       <div>
-        <div id="Path of Exile" className="pt-20 pb-52 lg:pb-72">
+        <div id="Path of Exile" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Path of Exile - Official Trailer
@@ -319,9 +320,9 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-
+      <hr className="border-b-8 my-8" />
       <div>
-        <div id="PUBG: Battlegrounds" className="pt-20 pb-52 lg:pb-72">
+        <div id="PUBG: Battlegrounds" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               PUBG: Battlegrounds - Official Trailer
@@ -417,9 +418,9 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-
+      <hr className="border-b-8 my-8" />
       <div>
-        <div id="Dota 2" className="pt-20 pb-52 lg:pb-72">
+        <div id="Dota 2" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Dota 2 - Official Trailer
@@ -515,9 +516,9 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-
+      <hr className="border-b-8 my-8" />
       <div>
-        <div id="World of Warcraft" className="pt-20 pb-52 lg:pb-72">
+        <div id="World of Warcraft" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Wolrd of Warcraft - Official Trailer
