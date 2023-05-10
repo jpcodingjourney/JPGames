@@ -124,7 +124,7 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-8 my-8" />
+      <hr className="my-16 border-8 border-double border-rose-800" />
 
       <div>
         <div id="Undertale" className="pt-20 pb-32">
@@ -222,7 +222,7 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-8 my-8" />
+      <hr className="my-16 border-8 border-double border-rose-800" />
       <div>
         <div id="Path of Exile" className="pt-20 pb-32">
           <div className="">
@@ -320,7 +320,7 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-8 my-8" />
+      <hr className="my-16 border-8 border-double border-rose-800" />
       <div>
         <div id="PUBG: Battlegrounds" className="pt-20 pb-32">
           <div className="">
@@ -418,7 +418,7 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-8 my-8" />
+      <hr className="my-16 border-8 border-double border-rose-800" />
       <div>
         <div id="Dota 2" className="pt-20 pb-32">
           <div className="">
@@ -516,7 +516,7 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-8 my-8" />
+      <hr className="my-16 border-8 border-double border-rose-800" />
       <div>
         <div id="World of Warcraft" className="pt-20 pb-32">
           <div className="">
