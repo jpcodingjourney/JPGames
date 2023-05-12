@@ -94,7 +94,7 @@ const GameIntro = () => {
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/Genshin3.jpeg"
-                  alt="Image 1"
+                  alt="Image 3"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
@@ -157,7 +157,7 @@ const GameIntro = () => {
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/undertale1.jpg"
-                  alt="Image 2"
+                  alt="Image 1"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
@@ -195,7 +195,7 @@ const GameIntro = () => {
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/undertale3.jpeg"
-                  alt="Image 2"
+                  alt="Image 3"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
@@ -391,7 +391,7 @@ const GameIntro = () => {
               <div className="w-full lg:w-3/6 px-4">
                 <Image
                   src="/PUBG3.jpg"
-                  alt="Image 1"
+                  alt="Image 3"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
@@ -450,7 +450,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game5.jpg"
+                  src="/dota1.jpg"
                   alt="Image 1"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
@@ -476,7 +476,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game5.jpg"
+                  src="/dota2.jpg"
                   alt="Image 2"
                   width={1000}
                   height={1000}
@@ -488,8 +488,8 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game5.jpg"
-                  alt="Image 1"
+                  src="/dota3.jpg"
+                  alt="Image 3"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
