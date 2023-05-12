@@ -352,7 +352,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game4.png"
+                  src="/PUBG1.jpg"
                   alt="Image 1"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
@@ -378,7 +378,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game4.png"
+                  src="/PUBG2.jpg"
                   alt="Image 2"
                   width={1000}
                   height={1000}
@@ -390,7 +390,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game4.png"
+                  src="/PUBG3.jpg"
                   alt="Image 1"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
