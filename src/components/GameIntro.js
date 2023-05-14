@@ -254,7 +254,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game3.jpeg"
+                  src="/poe1.jpg"
                   alt="Image 1"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
@@ -280,7 +280,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game3.jpeg"
+                  src="/poe2.jpeg"
                   alt="Image 2"
                   width={1000}
                   height={1000}
@@ -292,7 +292,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
               <div className="w-full lg:w-3/6 px-4">
                 <Image
-                  src="/game3.jpeg"
+                  src="/poe3.jpg"
                   alt="Image 3"
                   className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
@@ -420,7 +420,7 @@ const GameIntro = () => {
       </div>
       <hr className="my-16 border-8 border-double border-rose-800" />
       <div>
-        <div id="Dota 2" className="pt-20 pb-32">
+        <div id="DOTA 2" className="pt-20 pb-32">
           <div className="">
             <div className="text-center text-3xl font-medium">
               Dota 2 - Official Trailer
@@ -530,7 +530,7 @@ const GameIntro = () => {
                   <iframe
                     width="800"
                     height="600"
-                    src="https://www.youtube.com/embed/38ZwPC3xO78?vq=hd1080"
+                    src="https://www.youtube.com/embed/3ZtedjN1JXY?vq=hd1080"
                     title="Wolrd of Warcraft Trailer"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
