@@ -50,8 +50,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/Genshin1.jpeg"
                   alt="Image 1"
@@ -60,8 +60,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 2xl:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Experience an immersive single-player campaign. As a traveler
                   from another world, you will embark on a journey to reunite
                   with your long-lost sibling and unravel the mysteries of
@@ -71,15 +71,15 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 2xl:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Fly across the open world, swim through crystal-clear waters,
                   and climb towering mountains. Stray off the beaten path to
                   discover all the hidden secrets of a world full of wonder and
                   mystery.
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/Genshin2.jpeg"
                   alt="Image 2"
@@ -91,7 +91,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/Genshin3.jpeg"
                   alt="Image 3"
@@ -100,8 +100,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 2xl:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Charge head-on into battles solo, or invite friends to join
                   the fight against dangerous monsters with 4-player cross-play
                   for PS4, iOS, Android, and PC.
