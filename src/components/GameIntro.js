@@ -60,7 +60,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12 2xl:w-5/12">
+              <div className="w-full lg:w-5/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Experience an immersive single-player campaign. As a traveler
                   from another world, you will embark on a journey to reunite
@@ -71,7 +71,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 2xl:w-5/12 lg:my-0">
+              <div className="w-full lg:w-5/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Fly across the open world, swim through crystal-clear waters,
                   and climb towering mountains. Stray off the beaten path to
@@ -100,7 +100,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12 2xl:w-5/12">
+              <div className="w-full lg:w-5/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   Charge head-on into battles solo, or invite friends to join
                   the fight against dangerous monsters with 4-player cross-play
@@ -153,8 +153,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/undertale1.jpg"
                   alt="Image 1"
@@ -163,8 +163,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -173,14 +173,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/undertale2.webp"
                   alt="Image 2"
@@ -191,8 +191,8 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/undertale3.jpeg"
                   alt="Image 3"
@@ -201,8 +201,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -222,7 +222,9 @@ const GameIntro = () => {
           </div>
         </div>
       </div>
+
       <hr className="my-16 border-8 border-double border-rose-800" />
+
       <div>
         <div id="Path of Exile" className="pt-20 pb-32">
           <div className="">
@@ -232,7 +234,6 @@ const GameIntro = () => {
             <div className="flex justify-center items-center pt-8 pb-20 lg:pt-20">
               <div className="w-full md:max-w-2xl lg:max-w-4xl px-4">
                 <div className="relative" style={{ paddingBottom: "56.25%" }}>
-                  {" "}
                   <iframe
                     width="800"
                     height="600"
@@ -251,8 +252,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/poe1.jpg"
                   alt="Image 1"
@@ -261,8 +262,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -271,14 +272,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/poe2.jpeg"
                   alt="Image 2"
@@ -289,8 +290,8 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/poe3.jpg"
                   alt="Image 3"
@@ -299,8 +300,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -349,8 +350,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/PUBG1.jpg"
                   alt="Image 1"
@@ -359,8 +360,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -369,14 +370,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/PUBG2.jpg"
                   alt="Image 2"
@@ -387,8 +388,8 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/PUBG3.jpg"
                   alt="Image 3"
@@ -397,8 +398,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
