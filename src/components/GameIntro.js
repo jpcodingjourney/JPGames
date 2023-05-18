@@ -51,7 +51,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/Genshin1.jpeg"
                   alt="Image 1"
@@ -60,26 +60,22 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Experience an immersive single-player campaign. As a traveler
-                  from another world, you will embark on a journey to reunite
-                  with your long-lost sibling and unravel the mysteries of
-                  Teyvat, and yourself.
+                  Genshin Impact's vast and visually stunning open world
+                  encourages exploration and discovery.
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Fly across the open world, swim through crystal-clear waters,
-                  and climb towering mountains. Stray off the beaten path to
-                  discover all the hidden secrets of a world full of wonder and
-                  mystery.
+                  Constant updates and new content to keep players engaged and
+                  excited.
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/Genshin2.jpeg"
                   alt="Image 2"
@@ -91,7 +87,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/Genshin3.jpeg"
                   alt="Image 3"
@@ -100,11 +96,9 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Charge head-on into battles solo, or invite friends to join
-                  the fight against dangerous monsters with 4-player cross-play
-                  for PS4, iOS, Android, and PC.
+                  Engaging combat mechanics and diverse character abilities.
                 </div>
               </div>
             </div>
@@ -154,7 +148,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/undertale1.jpg"
                   alt="Image 1"
@@ -163,24 +157,22 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Memorable and lovable characters with deep emotional
+                  connections.
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text testing text
+                  Multiple choices and consequences that encourage replayability
+                  and exploration.
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/undertale2.webp"
                   alt="Image 2"
@@ -192,7 +184,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/undertale3.jpeg"
                   alt="Image 3"
@@ -201,11 +193,10 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Engaging and unique gameplay mechanics with meaningful
+                  choices.
                 </div>
               </div>
             </div>
@@ -253,7 +244,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/poe1.jpg"
                   alt="Image 1"
@@ -262,7 +253,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
@@ -272,14 +263,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/poe2.jpeg"
                   alt="Image 2"
@@ -291,7 +282,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/poe3.jpg"
                   alt="Image 3"
@@ -300,7 +291,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
@@ -351,7 +342,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/PUBG1.jpg"
                   alt="Image 1"
@@ -360,7 +351,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
@@ -370,14 +361,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/PUBG2.jpg"
                   alt="Image 2"
@@ -389,7 +380,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/PUBG3.jpg"
                   alt="Image 3"
@@ -398,7 +389,7 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
@@ -449,7 +440,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/dota1.jpg"
                   alt="Image 1"
@@ -458,24 +449,22 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  When it comes to diversity of heroes, abilities, and powerful
+                  items, Dota boasts an endless array—no two games are the same.
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text testing text
+                  Dota doesn't provide limitations on how to play, it empowers
+                  you to express your own style.
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/dota2.jpg"
                   alt="Image 2"
@@ -487,7 +476,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/dota3.jpg"
                   alt="Image 3"
@@ -496,11 +485,10 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Dota is deep, and constantly evolving, but it's never too late
+                  to join.
                 </div>
               </div>
             </div>
@@ -547,7 +535,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/wow1.jpg"
                   alt="Image 1"
@@ -556,24 +544,24 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  World of Warcraft offers a massive and visually stunning
+                  virtual realm, providing players with countless areas to
+                  explore and get lost in.
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-5/12 lg:my-0">
+              <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text testing text
+                  The game's intricate lore and captivating narrative keep
+                  players engaged, as they uncover epic quests and discover the
+                  history and secrets of Azeroth.
                 </div>
               </div>
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/wow2.jpg"
                   alt="Image 2"
@@ -585,7 +573,7 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
-              <div className="w-full lg:w-5/12 px-4">
+              <div className="w-full lg:w-6/12 px-4">
                 <Image
                   src="/wow3.jpg"
                   alt="Image 3"
@@ -594,11 +582,11 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-5/12">
+              <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  From leveling up your character to acquiring powerful gear and
+                  unlocking new abilities, World of Warcraft offers a satisfying
+                  sense of progression and accomplishment.
                 </div>
               </div>
             </div>
@@ -622,7 +610,7 @@ const GameIntro = () => {
       {showButton && (
         <button
           onClick={handleClick}
-          className={`fixed bottom-20 left-1/2 transform text-4xl hover:scale-105 ${
+          className={`fixed bottom-20 right-12 transform text-4xl hover:scale-105 ${
             showButton ? "block" : "hidden"
           }`}
         >

@@ -17,7 +17,7 @@ function GameCarousel() {
       name: "Undertale",
       imageUrl: "/game2.jpg",
       description:
-        "Undertale is a 2D role-playing video game created by American indie developer Toby Fox. The player controls a child who has fallen into the Underground: a large, secluded region under the surface of the Earth, separated by a magical barrier.",
+        "Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever.",
     },
     {
       name: "Path of Exile",
@@ -29,7 +29,7 @@ function GameCarousel() {
       name: "PUBG: Battlegrounds",
       imageUrl: "/game4.png",
       description:
-        "PUBG: BATTLEGROUNDS is a battle royale that pits 100 players against each other. Outplay your opponents to become the lone survivor.",
+        "Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds. Squad up and join the Battlegrounds for the original Battle Royale experience that only PUBG: BATTLEGROUNDS can offer.",
     },
     {
       name: "DOTA 2",
