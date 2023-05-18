@@ -448,8 +448,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/dota1.jpg"
                   alt="Image 1"
@@ -458,8 +458,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -468,14 +468,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/dota2.jpg"
                   alt="Image 2"
@@ -486,8 +486,8 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/dota3.jpg"
                   alt="Image 3"
@@ -496,8 +496,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -546,8 +546,8 @@ const GameIntro = () => {
               Gameplays
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/wow1.jpg"
                   alt="Image 1"
@@ -556,8 +556,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
@@ -566,14 +566,14 @@ const GameIntro = () => {
             </div>
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
-              <div className="w-full lg:w-2/6 px-32 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12 lg:my-0">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text testing text
                 </div>
               </div>
-              <div className="w-full lg:w-3/6 px-4">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/wow2.jpg"
                   alt="Image 2"
@@ -584,8 +584,8 @@ const GameIntro = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap justify-center items-center py-12 lg:py-20">
-              <div className="w-full lg:w-3/6 px-4">
+            <div className="flex flex-wrap justify-center items-center py-12 2xl:py-20">
+              <div className="w-full lg:w-5/12 px-4">
                 <Image
                   src="/wow3.jpg"
                   alt="Image 3"
@@ -594,8 +594,8 @@ const GameIntro = () => {
                   height={1000}
                 />
               </div>
-              <div className="w-full lg:w-2/6 px-28 lg:my-0">
-                <div className="text-xl break-words lg:block hidden">
+              <div className="w-full lg:w-5/12">
+                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
                   testing text testing text testing text testing text testing
                   text testing text testing text testing text testing text
                   testing text testing text testing text
