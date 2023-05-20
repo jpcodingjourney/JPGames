@@ -255,7 +255,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Constant updates and content expansions
+                  Constant updates and content expansions.
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Deep and complex character customization
+                  Deep and complex character customization.
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -289,7 +289,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  Challenging and rewarding gameplay
+                  Challenging and rewarding gameplay.
                 </div>
               </div>
             </div>
@@ -347,9 +347,8 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Thrilling last-man-standing battles that test your skills and
+                  nerves.
                 </div>
               </div>
             </div>
@@ -357,9 +356,8 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text testing text
+                  Dynamic and immersive environments create an engaging gaming
+                  experience.
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -385,9 +383,8 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Intense multiplayer battles offer thrilling and unpredictable
+                  gameplay.
                 </div>
               </div>
             </div>
@@ -445,8 +442,8 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  When it comes to diversity of heroes, abilities, and powerful
-                  items, Dota boasts an endless array—no two games are the same.
+                  Dota 2 offers intense strategic gameplay and team
+                  coordination.
                 </div>
               </div>
             </div>

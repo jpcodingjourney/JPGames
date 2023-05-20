@@ -12,7 +12,7 @@ const About = () => {
       </Head>
 
       <div className="flex pt-8 lg:pt-12 2xl:pt-20">
-        <div className="px-8 lg:px-0 2xl:px-20">
+        <div className="px-8 text-justify lg:px-0 2xl:px-20">
           <div className="text-xl lg:px-96 lg:text-xl mb-16">
             Welcome to my personal game website, where I share a collection of
             games that I love to play. As a passionate gamer, I have a

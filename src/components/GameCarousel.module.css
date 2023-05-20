@@ -7,3 +7,10 @@
   width: 50%;
   margin: 0 auto;
 }
+
+@media (max-width: 1023px) {
+  .carouselContainer {
+    width: 95%;
+    margin-top: 2rem;
+  }
+}
