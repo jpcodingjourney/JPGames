@@ -255,9 +255,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Constant updates and content expansions
                 </div>
               </div>
             </div>
@@ -265,9 +263,7 @@ const GameIntro = () => {
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text testing text
+                  Deep and complex character customization
                 </div>
               </div>
               <div className="w-full lg:w-6/12 px-4">
@@ -293,9 +289,7 @@ const GameIntro = () => {
               </div>
               <div className="w-full lg:w-4/12">
                 <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
-                  testing text testing text testing text testing text testing
-                  text testing text testing text testing text testing text
-                  testing text testing text testing text
+                  Challenging and rewarding gameplay
                 </div>
               </div>
             </div>
