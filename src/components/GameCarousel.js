@@ -90,7 +90,7 @@ function GameCarousel() {
         {games.map((game) => (
           <div className="game-container px-14 2xl:px-12">
             <div key={game.name} className="px-2 md:px-4 lg:px-8 2xl:px-0 ">
-              <h3 className="text-center mb-5 text-3xl 2xl:text-4xl font-medium">
+              <h3 className="text-center mb-5 2xl:my-5 text-3xl font-medium">
                 {game.name}
               </h3>
               <a href={`#${game.name}`}>

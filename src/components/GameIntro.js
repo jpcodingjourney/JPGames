@@ -55,7 +55,7 @@ const GameIntro = () => {
                 <Image
                   src="/Genshin1.jpeg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -81,7 +81,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -91,7 +91,7 @@ const GameIntro = () => {
                 <Image
                   src="/Genshin3.jpeg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -152,7 +152,7 @@ const GameIntro = () => {
                 <Image
                   src="/undertale1.jpg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -178,7 +178,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -188,7 +188,7 @@ const GameIntro = () => {
                 <Image
                   src="/undertale3.jpeg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -248,7 +248,7 @@ const GameIntro = () => {
                 <Image
                   src="/poe1.jpg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -272,7 +272,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -282,7 +282,7 @@ const GameIntro = () => {
                 <Image
                   src="/poe3.jpg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -340,7 +340,7 @@ const GameIntro = () => {
                 <Image
                   src="/PUBG1.jpg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -366,7 +366,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -376,7 +376,7 @@ const GameIntro = () => {
                 <Image
                   src="/PUBG3.jpg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -435,7 +435,7 @@ const GameIntro = () => {
                 <Image
                   src="/dota1.jpg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -461,7 +461,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -471,7 +471,7 @@ const GameIntro = () => {
                 <Image
                   src="/dota3.jpg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -530,7 +530,7 @@ const GameIntro = () => {
                 <Image
                   src="/wow1.jpg"
                   alt="Image 1"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
@@ -558,7 +558,7 @@ const GameIntro = () => {
                   alt="Image 2"
                   width={1000}
                   height={1000}
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                 />
               </div>
             </div>
@@ -568,7 +568,7 @@ const GameIntro = () => {
                 <Image
                   src="/wow3.jpg"
                   alt="Image 3"
-                  className="w-full md:w-auto md:max-w-full md:h-auto mx-auto shadow-lg"
+                  className="w-full md:max-w-full md:h-auto mx-auto shadow-lg"
                   width={1000}
                   height={1000}
                 />
