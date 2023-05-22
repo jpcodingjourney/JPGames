@@ -88,11 +88,8 @@ function GameCarousel() {
       `}</style>
       <Carousel {...settings} className="">
         {games.map((game) => (
-          <div className="game-container">
-            <div
-              key={game.name}
-              className="px-2 md:px-4 lg:px-8 xl:px-20 2xl:px-0 "
-            >
+          <div className="game-container xl:px-20 2xl:px-12">
+            <div key={game.name} className="px-2 md:px-4 lg:px-8 2xl:px-0 ">
               <h3 className="text-center my-5 text-4xl lg:text-3xl  font-medium">
                 {game.name}
               </h3>
@@ -103,7 +100,7 @@ function GameCarousel() {
                   className="mx-auto transform hover:brightness-105 hover:scale-105 transition-all duration-300"
                 />
               </a>
-              <p className="text-justify tracking-wide my-5 text-xl">
+              <p className="text-justify tracking-wide my-5 text:lg 2xl:text-xl">
                 {game.description}
               </p>
             </div>
