@@ -80,17 +80,17 @@ function GameCarousel() {
           font-size: 30px; 
         }
         .slick-prev {
-          left: -3rem; 
+          left: -2.4rem; 
         }
         .slick-next {
-          right: -2.4rem; 
+          right: -1.8rem; 
         }
       `}</style>
       <Carousel {...settings} className="">
         {games.map((game) => (
-          <div className="game-container xl:px-20 2xl:px-12">
+          <div className="game-container px-14 2xl:px-12">
             <div key={game.name} className="px-2 md:px-4 lg:px-8 2xl:px-0 ">
-              <h3 className="text-center my-5 text-4xl lg:text-3xl  font-medium">
+              <h3 className="text-center mb-5 text-3xl 2xl:text-4xl font-medium">
                 {game.name}
               </h3>
               <a href={`#${game.name}`}>
@@ -100,7 +100,7 @@ function GameCarousel() {
                   className="mx-auto transform hover:brightness-105 hover:scale-105 transition-all duration-300"
                 />
               </a>
-              <p className="text-justify tracking-wide my-5 text:lg 2xl:text-xl">
+              <p className="text-justify tracking-wide my-5 2xl:text-xl">
                 {game.description}
               </p>
             </div>
