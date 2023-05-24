@@ -11,7 +11,8 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex pt-8 lg:pt-12 2xl:pt-20">
+      <div className="text-center text-3xl pt-4 font-medium">About Us</div>
+      <div className="flex pt-6 2xl:pt-12">
         <div className="px-8 text-justify lg:px-0 2xl:px-20">
           <div className="text-xl lg:px-96 lg:text-xl mb-16">
             Welcome to my personal game website, where I share a collection of
