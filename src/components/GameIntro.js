@@ -26,6 +26,8 @@ const GameIntro = () => {
 
   return (
     <div>
+      <hr className="my-16 border-8 border-double border-rose-800" />
+
       <div>
         <div id="Genshin Impact" className="pt-20 pb-32">
           <div className="">
@@ -61,7 +63,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Genshin Impact's vast and visually stunning open world
                   encourages exploration and discovery.
                 </div>
@@ -70,7 +72,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Constant updates and new content to keep players engaged and
                   excited.
                 </div>
@@ -97,7 +99,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Engaging combat mechanics and diverse character abilities.
                 </div>
               </div>
@@ -158,7 +160,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Memorable and lovable characters with deep emotional
                   connections.
                 </div>
@@ -167,7 +169,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Multiple choices and consequences that encourage replayability
                   and exploration.
                 </div>
@@ -194,7 +196,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Engaging and unique gameplay mechanics with meaningful
                   choices.
                 </div>
@@ -254,7 +256,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Constant updates and content expansions.
                 </div>
               </div>
@@ -262,7 +264,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Deep and complex character customization.
                 </div>
               </div>
@@ -288,7 +290,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Challenging and rewarding gameplay.
                 </div>
               </div>
@@ -346,7 +348,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Thrilling last-man-standing battles that test your skills and
                   nerves.
                 </div>
@@ -355,7 +357,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Dynamic and immersive environments create an engaging gaming
                   experience.
                 </div>
@@ -382,7 +384,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Intense multiplayer battles offer thrilling and unpredictable
                   gameplay.
                 </div>
@@ -441,7 +443,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Dota 2 offers intense strategic gameplay and team
                   coordination.
                 </div>
@@ -450,7 +452,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Dota doesn't provide limitations on how to play, it empowers
                   you to express your own style.
                 </div>
@@ -477,7 +479,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   Dota is deep, and constantly evolving, but it's never too late
                   to join.
                 </div>
@@ -536,7 +538,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   World of Warcraft offers a massive and visually stunning
                   virtual realm, providing players with countless areas to
                   explore and get lost in.
@@ -546,7 +548,7 @@ const GameIntro = () => {
 
             <div className="flex flex-wrap justify-center items-center py-12 md:py-24">
               <div className="w-full lg:w-4/12 lg:my-0">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   The game's intricate lore and captivating narrative keep
                   players engaged, as they uncover epic quests and discover the
                   history and secrets of Azeroth.
@@ -574,7 +576,7 @@ const GameIntro = () => {
                 />
               </div>
               <div className="w-full lg:w-4/12">
-                <div className="text-xl w-4/5 text-justify mx-auto break-words lg:block hidden">
+                <div className="text-xl w-11/12 text-left mx-auto break-words lg:block hidden">
                   From leveling up your character to acquiring powerful gear and
                   unlocking new abilities, World of Warcraft offers a satisfying
                   sense of progression and accomplishment.
